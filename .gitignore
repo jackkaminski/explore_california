@@ -1,0 +1,20 @@
+# Comment
+tempfile.txt
+
+# Mac file
+.DS_Store
+
+*.zip
+*.gz
+
+# Ignore any log files ending in .log and numbers with reg exp
+# log/archive/access.log would NOT be ignored fyi
+log/*.log
+log/*.log.[0-9]
+
+# Ignore files in photoshop folder
+assets/photoshop/
+
+# Ignore videos, but allows videos starting with tour and ending with .mp4
+assets/videos/
+!assets/videos/tour_*.mp4
